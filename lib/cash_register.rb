@@ -14,6 +14,7 @@ class CashRegister
     quantity.times {
       @items << title
     }
+    @last_transaction = price 
   end
   
   def apply_discount 
